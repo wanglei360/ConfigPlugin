@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { //这里是当前根目录下的plugDemo文件夹
+            url = "pluginKotlin"
+        }
+        maven { //这里是当前根目录下的plugDemo文件夹
+            url = "pluginGroov"
+        }
+    }
+    resolutionStrategy {
+        eachPlugin {
+            //todo 如果是指定的groupId
+            if (requested.id.name == 'plugin-groov' || requested.id.name == 'plugin-kotlin') {
+                System.out.println("requested.id.name 111 =${requested.id.namespace}:${requested.id.name}:${requested.version}")
+                // groupId:artifactId:version
+                useModule("${requested.id.namespace}:${requested.id.name}:${requested.version}")
+            }
+        }
+    }
+}
+dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Config"
+include ':app'
+include ':pluginCodeGroov'
+include ':pluginCodeKotlin'

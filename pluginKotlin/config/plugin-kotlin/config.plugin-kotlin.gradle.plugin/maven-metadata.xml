@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>config.plugin-kotlin</groupId>
+  <artifactId>config.plugin-kotlin.gradle.plugin</artifactId>
+  <versioning>
+    <latest>unspecified</latest>
+    <release>unspecified</release>
+    <versions>
+      <version>unspecified</version>
+    </versions>
+    <lastUpdated>20220422073811</lastUpdated>
+  </versioning>
+</metadata>

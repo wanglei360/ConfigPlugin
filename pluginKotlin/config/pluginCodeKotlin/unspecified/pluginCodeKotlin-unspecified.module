@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "Config",
+    "module": "pluginCodeKotlin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginCodeKotlin-unspecified.jar",
+          "url": "pluginCodeKotlin-unspecified.jar",
+          "size": 3647,
+          "sha512": "cb8eafcd74474fb93032a706503f15a696b771db66ab40170ca31bd3c47006a9ef3953c6f2f04e47162f0dfaf5f6cea197cfa7af89e432f0474cb93206fb986c",
+          "sha256": "2b730eb3c038c725c33497b8ec93cc2cf64ea8a55a98190384bc7ca0406519b0",
+          "sha1": "20931b54ce854782c3a81b14f58d17ec16d1b80b",
+          "md5": "16a61b55eb688bc010ed4aa3b8feeb05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginCodeKotlin-unspecified.jar",
+          "url": "pluginCodeKotlin-unspecified.jar",
+          "size": 3647,
+          "sha512": "cb8eafcd74474fb93032a706503f15a696b771db66ab40170ca31bd3c47006a9ef3953c6f2f04e47162f0dfaf5f6cea197cfa7af89e432f0474cb93206fb986c",
+          "sha256": "2b730eb3c038c725c33497b8ec93cc2cf64ea8a55a98190384bc7ca0406519b0",
+          "sha1": "20931b54ce854782c3a81b14f58d17ec16d1b80b",
+          "md5": "16a61b55eb688bc010ed4aa3b8feeb05"
+        }
+      ]
+    }
+  ]
+}

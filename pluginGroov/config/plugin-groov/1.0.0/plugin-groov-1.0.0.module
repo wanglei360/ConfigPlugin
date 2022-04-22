@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "Config",
+    "module": "pluginCodeGroov",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-groov-1.0.0.jar",
+          "url": "plugin-groov-1.0.0.jar",
+          "size": 3587,
+          "sha512": "9b293bf70f8a95c7c1b725e9c68f9d453c43b2fb95f9dcfe342cf7eb2d557ecb9939a532414ff58897dc818772dfce14c2fd8d617d73ab2c311814aae06d622c",
+          "sha256": "ee95961a159d061a0199c9829e18e83adf8a19a5aca1b467b03e73675fdeded0",
+          "sha1": "0a5f8278e031da7de6de4a1207bb29be99c16bf3",
+          "md5": "1de696ba8561cb487e029fb944460927"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-groov-1.0.0.jar",
+          "url": "plugin-groov-1.0.0.jar",
+          "size": 3587,
+          "sha512": "9b293bf70f8a95c7c1b725e9c68f9d453c43b2fb95f9dcfe342cf7eb2d557ecb9939a532414ff58897dc818772dfce14c2fd8d617d73ab2c311814aae06d622c",
+          "sha256": "ee95961a159d061a0199c9829e18e83adf8a19a5aca1b467b03e73675fdeded0",
+          "sha1": "0a5f8278e031da7de6de4a1207bb29be99c16bf3",
+          "md5": "1de696ba8561cb487e029fb944460927"
+        }
+      ]
+    }
+  ]
+}
